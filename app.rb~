@@ -12,6 +12,10 @@ require 'sinatra'
 	end
 }
 
+get '/math' do
+	erb :math
+end
+
 get '/about' do
 	erb :about
 end
